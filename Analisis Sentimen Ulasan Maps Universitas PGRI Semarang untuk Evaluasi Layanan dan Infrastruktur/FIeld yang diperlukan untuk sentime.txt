@@ -1,0 +1,62 @@
+FIeld yang diperlukan untuk sentiment analisis Kampus 
+
+- Stars
+- Reviewername
+- Review Text
+- Publish At Date
+
+Analisis Sentimen Ulasan Maps Universitas PGRI Semarang untuk Evaluasi Layanan dan Infrastruktur
+
+Tahap yang dilakukan:
+
+- Preprocessing data
+- Aspect Based Sentiment Classification (Absc) (membuat keyword)
+	Fasilitas & Infrastruktur
+	Pengalaman di Uniniversitas PGRI Semarang
+	Harga dan Aksesbilitas
+
+	output Kategori Review Kunjungan atau Mhasiswa yang sedang Belajar
+
+- Spliting Data
+- SVM Karnel ("Liniear", "rbf", "Poly", "Sigmoid")
+
+	Hasilnya: Perbandingan Akurasi SVM Berdasarkan Kernel
+
+
+
+Prompt:
+jadi saya akan membuat sistem(Dalam Rangka Tugas Akhir Skripsi saya):
+
+Analisis Sentimen Ulasan Maps Universitas PGRI Semarang untuk Evaluasi Layanan dan Infrastruktur
+
+Tools yang saya gunakan:
+Google Colab
+
+Tahap yang dilakukan:
+- Preprocessing data
+- Aspect Based Sentiment Classification (Absc) (membuat keyword)
+	Fasilitas & Infrastruktur
+	Pengalaman di Uniniversitas PGRI Semarang
+	Harga dan Aksesbilitas
+	output Kategori Review Kunjungan atau Mhasiswa yang sedang Belajar
+- Spliting Data
+- SVM Karnel ("Liniear", "rbf", "Poly", "Sigmoid")
+	Hasilnya: Perbandingan Akurasi SVM Berdasarkan Kernel
+
+Belajari saya Perlahan Agar saya Paham betul step by step, dan mungkin nantinya ada saran dan rekomendasi atau improve ide yang bagus dan amazing agar bisa diterima oleh dosen pembimbing saya. terimakasih
+
+
+----------------------------------------------------------------------------------------------
+
+1. Sudah punya data ulasan? Berapa jumlahnya? :
+	Sudah Bernama dataset_review_gmaps.csv (Jumlah 959 Baris data frame)
+
+2. Sudah punya keyword untuk ABSC? Atau perlu bantuan buat list keyword?
+	saya Perlu Bantuan List KEywordnya
+
+3. Data sudah dilabeling (positif/negatif)? Atau butuh bantuan cara labeling?
+	Bantu saya Labeling data (Positif,Netral,Negatif)
+
+4. Mau fokus ke bagian mana dulu? Preprocessing, ABSC, atau SVM?
+	Preprocessing dahulu (step by step)
+
